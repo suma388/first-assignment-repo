@@ -250,6 +250,7 @@ text-align: left;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 20px 20px;
+    margin-bottom: 50px;
 }
 .question-section-discription{
     color: rgba(14, 14, 14, 0.8);
@@ -271,4 +272,59 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 0px;
+}
+/* start news section */
+.section-title{
+    color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satelite{
+    border-radius: 16px;
+}
+.contant-title{
+    color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.news-section-discription{
+    color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.news-section-container{
+    display: flex;
+    gap: 23px;
+    background-color: white;
+    border: 1px solid lavender;
+    padding: 34px;
+    border-radius: 16px;
+}
+.news-section{
+    margin-bottom: 50px;
 }
