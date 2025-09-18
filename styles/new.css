@@ -328,3 +328,81 @@ text-align: left;
 .news-section{
     margin-bottom: 50px;
 }
+/* donate section */
+.donate-section{
+    margin-bottom: 50px;
+}
+.donate-section-title{
+    color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-section-discription{
+    color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.taka-btn{
+    color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+padding: 30px;
+border-radius: 12px;
+border: 1px solid lightcyan;
+}
+.taka-btn-2{
+    background: rgba(198, 228, 214, 1);
+        color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+padding: 30px;
+border-radius: 12px;
+border: 1px solid lightcyan;
+}
+.taka-btn:hover{
+    background-color: limegreen;
+    border-radius: 16px;
+    color: white;
+}
+.taka-btn-2:hover{
+    background-color: limegreen;
+    border-radius: 16px;
+    color: white;
+}
+.donate-section-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.input-button{
+    width: 85%;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+.center-2{
+    text-align: center;
+}
+/* subscrib section */
