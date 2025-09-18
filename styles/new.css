@@ -438,3 +438,20 @@ text-align: left;
 .input-submit{
     text-align: justify;
 }
+/* footer section */
+.footer-title{
+    color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
