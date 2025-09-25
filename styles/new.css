@@ -28,7 +28,7 @@ border: none;
 }
 .center{
     margin: 0% auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 
@@ -44,7 +44,7 @@ nav{
     color: rgba(14, 14, 14, 1);
 
     font-family: Fira Sans;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
@@ -66,10 +66,8 @@ nav{
 .banner{
     background-color: rgba(198, 228, 214, 1);
     display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 64;
 padding: 56px 70px 56px 70px;
 border-radius: 20px;
 margin-bottom: 60px;
@@ -96,7 +94,7 @@ text-align: left;
 /* width: 50%; */
 }
 .hero-img{
-    width: 325px;
+    width: 100%;
 }
 /* start failler section */
 .pillar-section{
@@ -113,7 +111,8 @@ text-align: left;
     padding: 20px 20px 0px 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0 3px  10px 0 gainsboro;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
 }
@@ -245,7 +244,8 @@ text-align: left;
     background: rgba(255, 255, 255, 1);
     border-radius: 13px;
     padding: 25px 20px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 4px 6px 8px 2px gainsboro;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
     margin-top: 30px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
@@ -295,6 +295,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .satelite{
+    width: 100%;
     border-radius: 16px;
 }
 .contant-title{
@@ -454,4 +455,32 @@ text-align: center;
     align-items: center;
     justify-content: center;
     gap: 19px;
+}
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        padding: 30px 20px 56px 20px;
+
+    }
+    .banner-contant{
+        margin-bottom: 50px;
+    }
+    .banner-title{
+        font-size: 2.18rem;
+    }
+    .future-section-container,
+    .pillar-container,
+    .news-section-container,
+    .donate-section-container{
+        flex-direction: column;
+    }
+    .taka-btn{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .taka-btn-2{
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
